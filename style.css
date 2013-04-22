@@ -48,6 +48,27 @@ table {
 }
 
 /* new styles */
-p {
-	border: 1px solid #000;
+
+#logo {
+	color: #033E8E;
+	font-size: 30px;
+	padding: 10px 0;
+	text-align: center;
+}
+#site-content,
+#site-footer {
+	margin: 0 auto;
+	width: 960px;
+}
+#site-content p {
+	color: #4D0000;
+	line-height: 1.5;
+}
+#site-footer {
+	margin-top: 30px;
+}
+#site-footer p {
+	color: #5C00B8;
+	font-size: 18px;
+	text-align: center;
 }
