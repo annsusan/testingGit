@@ -57,7 +57,7 @@ table {
 	width: 960px;
 }
 .logo {
-	border: 1px solid #303333;
+	border: 1px solid #C0CCCC;
 	float: left;
 	height: 75px;
 	width: 75px;
@@ -69,14 +69,53 @@ table {
 #Header_nav ul {
 	overflow: hidden;
 }
-#Header_nav ul >li {
+#Header_nav ul > li {
 	border: 1px solid #C0CCCC;
 	float: left;
 }
-#Header_nav ul >li a {
+#Header_nav ul > li a {
 	color: 	#484C4C;
 	font-size: 18px;
 	display: block;
 	padding: 10px;
 	text-decoration: none;
+}
+#site_Content,
+footer {
+	background: #F8FFFF;
+	border: 1px solid #C0CCCC;
+	margin: 20px auto;
+	padding: 10px;
+	width: 960px;
+}
+#site_Content article {
+	border: 1px solid rgba(0, 0, 0, .1);
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.first h2,
+.second h2 {
+	color: #3D003D;
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	text-align: left;
+}
+.details {
+	color: #853385;
+}
+.details > span {
+	margin: 10px 10px 0 0;
+}
+#site_Content article p {
+	color: #944D94;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+footer ul {
+	overflow: hidden;
+}
+footer ul > li {
+	color: #290029;
+	padding-bottom: 5px;
 }
